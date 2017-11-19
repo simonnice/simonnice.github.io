@@ -1,0 +1,132 @@
+
+//Reset some basic elements
+
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+//Variables
+$content-position: 250px;
+$content-position-top: -150px;
+
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+.header {
+    position: relative;
+    height: 300px;
+    width: 200px;
+    background-image: linear-gradient(#ff9d2f, #ff6126);
+    background-color: #DFE2DB;
+    a {
+        text-decoration-line: none;
+        padding: 30px;
+        display: block;
+        color: #DFE2DB;
+    }
+}
+
+svg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15vw;
+}
+
+.topnav {
+   display: inline-block;
+   position: relative;
+   margin-left: 1250px;
+   margin-top: -280px;
+   
+    a {
+        float: right;
+        display: block;
+        color: #7E8F7C;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        &:hover {
+            background-color: #74AFAD;
+            color: white;
+            border-radius: 10px;
+        }
+        
+        }
+    }
+
+.home {
+    background-color: white;
+    position: relative;
+    margin-left: $content-position;
+    margin-top: $content-position-top;
+    min-height: 100%;
+    h2 {
+        a {
+        text-decoration-line: none;
+        display: block;
+        padding: 5px;
+        color: #7E8F7C;
+        position: static;
+        }
+    }
+    h3 {
+        margin-left: 20px;
+        margin-bottom: 25px;
+    }
+}
+
+.content-header {
+    position: relative;
+    margin-left: $content-position;
+    margin-top: $content-position-top;
+    
+}
+
+.content {
+    position: relative;
+    margin-left: $content-position;
+    width: 750px;
+    min-height: 100%;
+    background-color: #ECECEA;
+    padding: 15px;
+    border-radius: 15px;
+    
+}
+
+.footer {
+    background-image: linear-gradient(#ff9d2f, #ff6126);
+    height: 100px;
+    position: relative;;
+    bottom: 0;
+    width: 100%;
+    margin-top: 10px;
+
+    .footer-contact {
+        float: right;
+        margin-right: 20px;
+        margin-top: 20px;
+    
+         h2 {
+        position: relative;
+    }
+    
+     h3 {  
+        position: relative;;
+    }
+}
+   .footer-content {
+       margin-left: 20px;
+       position: absolute;
+       margin-top: 20px;
+   }
+}
+
+
+

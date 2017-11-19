@@ -1,0 +1,51 @@
+// Variables for text sizes
+$header-font: 40px;
+$readable-font: 16px;
+$subheader-font: 20px;
+$font-nav: Helvetica;
+$footer-font: 12px;
+
+
+h1 {
+    font-size: $header-font;
+    font-family: Helvetica;
+}
+
+h2 {
+    font-size: $subheader-font;
+    font-family: $font-nav;
+}
+
+h3 {
+    font-size: 15px;
+    font-family: $font-nav;
+    color: teal;
+}
+
+.footer h3 {
+    color: white;
+    font-size: $footer-font;
+}
+
+.footer h2 {
+    color: white;
+}
+
+p {
+    font-size: $readable-font;
+    font-family: Helvetica;
+    color: black;
+}
+
+.topnav {
+    a {
+        font-family: $font-nav;
+    }
+}
+
+.header {
+    a{
+        font-family: $font-nav;
+        font-size: $header-font;
+    }
+}
