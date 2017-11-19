@@ -103,10 +103,12 @@ svg {
 .footer {
     background-image: linear-gradient(#ff9d2f, #ff6126);
     height: 100px;
-    position: relative;;
+    position: relative;
     bottom: 0;
     width: 100%;
     margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
 
     .footer-contact {
         float: right;
@@ -123,7 +125,6 @@ svg {
 }
    .footer-content {
        margin-left: 20px;
-       position: absolute;
        margin-top: 20px;
    }
 }
