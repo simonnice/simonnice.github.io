@@ -4,7 +4,7 @@ $readable-font: 16px;
 $subheader-font: 20px;
 $font-nav: Helvetica;
 $footer-font: 12px;
-
+$readable-color: black;
 
 h1 {
     font-size: $header-font;
@@ -34,7 +34,7 @@ h3 {
 p {
     font-size: $readable-font;
     font-family: Helvetica;
-    color: black;
+    color: $readable-color;
 }
 
 .topnav {
