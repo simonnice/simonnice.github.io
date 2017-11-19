@@ -6,7 +6,9 @@
 
 <div class="topnav">
 {% for page in site.html_pages %}
-<a href="{{ page.url }}" >{{page.title}}</a>
+{% unless page.exclude %}
+<a href="{{ page.url }}">{{page.title}}</a>
+{% endunless %}
 {% endfor %}
 </div>
 
