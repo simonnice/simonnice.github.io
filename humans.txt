@@ -1,0 +1,11 @@
+*/ The Creator */
+    Simon Bååth
+    simonnice.github.io
+    sb22ix@student.lnu.se
+
+*/ Thanks to */
+    Linnéuniversitet - You're Awesome!
+
+*/ Site detals */
+    Language - English
+    Launch date - 2017-11-19
